@@ -1,0 +1,51 @@
+// Systeemberichten
+dt.message,
+dt.error {
+	display: none;
+
+	ul {
+		.list-unstyled();
+	}
+}
+
+#system-message {
+	dt {
+		display: none;
+	}
+	
+	dd.message.message {
+		.alert();
+		.alert-success();
+	}
+	
+	dd.message.warning {
+		.alert();
+		.alert-warning();
+	}
+	
+	dd.message.info {
+		.alert();
+		.alert-info();
+	}
+	
+	dd.message.error,
+	dd.alert.alert-error {
+		.alert();
+		.alert-danger();
+	}
+	
+	dd ul {
+		list-style: none;
+	}
+}
+
+.message.message {
+	.alert();
+	.alert-success();
+}
+
+.message.error,
+.alert.alert-error {
+	.alert();
+	.alert-danger();
+}

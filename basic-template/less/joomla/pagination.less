@@ -1,0 +1,40 @@
+div.pagination {
+	margin: 0;
+
+	.counter {
+		display: none;
+	}
+	
+	.pagination-sm>li>a, 
+	.pagination-sm>li>span {
+		padding: 5px 6px;
+	}
+	
+	.glyphicon {
+		font-size: 10px;
+	}
+	@media (min-width: @screen-sm-min) {
+		.pagination > li.hidden-xs {
+			display: inline !important;
+		}
+	}
+
+}
+
+ul.pagenav {
+	.pager();
+	
+	.pagenav-prev {
+		.previous();
+		a {
+			.btn-default();
+		}
+	}
+	
+	.pagenav-next {
+		.next();
+		a {
+			.btn-default();
+		}
+	}
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>basic-template</name>
+	<version>1.0</version>
+	<creationDate>February 2015</creationDate>
+	<author>Sander Potjer - Perfect Web Team</author>
+	<authorEmail>hallo@perfectwebteam.nl</authorEmail>
+	<copyright>Copyright (C) 2015 Perfect Web Team</copyright>
+	<description>Basic template for Joomla-projects</description>
+
+	<files>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>less</folder>
+	</files>
+
+	<positions>
+		<position>menu</position>
+		<position>search</position>
+		<position>breadcrumbs</position>
+		<position>debug</position>
+	</positions>
+</extension>

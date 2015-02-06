@@ -1,0 +1,21 @@
+.breadcrumb {
+	background: none;
+	padding: 0;
+	margin: @grid-gutter-width/2 0 0 0;
+	font-size: 14px;
+
+	img[src $="arrow.png"] {
+		display: none;
+	}
+
+	li:nth-child(2):before {
+		padding: 0;
+		content: "";
+	}
+
+	@media (max-width: @screen-sm-min) {
+		.active {
+			display: none;
+		}
+	}
+}
